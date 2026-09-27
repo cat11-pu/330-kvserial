@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "missing_error_code": "E_MISSING",
+  "key_error_code": "E_BAD_KEY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "pairs": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "key": "a", "value": "1" },
+    { "id": 2, "kind": "set", "key": "b,c", "value": "x=y" },
+    { "id": 3, "kind": "set", "key": "d", "value": "1" },
+    { "id": 4, "kind": "unset", "key": "a" }
+  ]
+}
